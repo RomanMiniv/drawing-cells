@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	font-family: "Exo 2", sans-serif;
+}
+
+.wrapper {
+	
+}
+
+.anim {
+	display: block;
+	margin: 0 auto;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+.italicText {
+	font-style: italic;
+}
+
+.underlineText {
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding: 1% 1% 0 1%;
+}
+
+.leftPart {
+	width: 20%;
+}
+
+nav {
+	margin: 10% 0;
+}
+
+nav div {
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5% 1%;
+	margin-bottom: 5%;
+	cursor: pointer;
+	border: 1px solid silver;
+}
+
+nav div:last-child {
+	margin-bottom: 0;
+}
+
+nav div:hover {
+	background-color: #F9F9F9;
+}
+
+#choiceDrawing {
+	margin-top: 1%;
+}
+
+#choiceDrawing h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#sectionsDrawings hr {
+	margin: 1% 0;
+}
+
+.choiceBlockDrawings {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+.choiceBlockDrawings span {
+	cursor: pointer;
+	margin: 1% 2%;
+}
+
+.choiceBlockDrawings span:hover {
+	color: blue;
+}
+
+.menuItem {
+	margin-top: 1%;
+}
+
+.menuItem h2 {
+	margin-bottom: 2%;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.menuItem p {
+	text-align: justify;
+	/*text-indent: 25px;*/
+}
+
+.menuItem table {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid silver;
+}
+
+.menuItem table tr:first-child {
+	font-style: italic;
+}
+
+.menuItem table td {
+	box-sizing: border-box;
+	padding: 2%;
+	border: 1px solid silver;	
+	text-align: center;
+}
+
+.menuItem form {
+	width: 50%;
+	margin: 2% auto 0;
+	box-sizing: border-box;
+	padding: 1%;
+	border-radius: 4px;
+	border: 1px dashed silver;
+}
+
+.menuItem form div {
+	margin-bottom: 2%;
+}
+
+.menuItem label {
+	cursor: pointer;
+}
+
+.menuItem form div input {
+	width: 100%;
+	min-height: 25px;
+	font-size: 16px;
+}
+
+.menuItem form div textarea {
+	width: 100%;
+	min-height: 70px;
+	max-height: 300px;
+	resize: vertical;
+	font-size: 16px;
+}
+
+.btnSend {
+	display: block;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 1% 2%;
+	background-color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.centerPart {
+	position: relative;
+	width: 60%;
+	margin: 0 1%;
+	border: 1px solid silver;	
+	border-radius: 2px;
+}
+
+#drawingArea {
+	display: block;
+	margin: 1% auto;
+	border: 1px solid silver;
+}
+
+.nameDrawing {
+	width: 750px;
+	margin: 1% auto;	
+	box-sizing: border-box;
+	padding: 2%;
+	border: 1px solid silver;
+	text-align: center;
+}
+
+.path {
+	width: 20%;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	padding: 0.5%;
+	border: 1px solid silver;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.path p {
+	margin-bottom: 1%;
+}
+
+.path span {
+	display: inline-block;
+	margin: 2%;
+	
+}
+
+footer {
+	margin-top: 1.5%;
+	text-align: center;
+}
+
+footer h1 {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+}
